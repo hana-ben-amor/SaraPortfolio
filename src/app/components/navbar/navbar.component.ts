@@ -49,6 +49,10 @@ export class NavbarComponent {
     this.translationService.toggleLanguage();
   }
 
+  toggleTheme(): void {
+    this.themeService.toggle();
+  }
+
   scrollTo(id: string): void {
     this.closeMenu();
     const el = document.getElementById(id);
