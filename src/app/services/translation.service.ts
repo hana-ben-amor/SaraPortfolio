@@ -81,7 +81,6 @@ export interface Translations {
     messagePlaceholder: string;
     infoTitle: string;
     location: string;
-    phone: string;
   };
   footer: {
     rights: string;
@@ -243,8 +242,7 @@ const EN: Translations = {
     emailPlaceholder: 'john@example.com',
     messagePlaceholder: 'Tell me about your project…',
     infoTitle: 'Get in touch',
-    location: 'Monastir, Tunisia',
-    phone: '+(216) 99963900',
+    location: 'Monastir, Tunisia'
   },
   footer: {
     rights: 'All rights reserved.',
@@ -406,9 +404,7 @@ const FR: Translations = {
     emailPlaceholder: 'jean@exemple.com',
     messagePlaceholder: 'Parlez-moi de votre projet…',
     infoTitle: 'Entrer en contact',
-    location: 'Monastir, Tunisie',
-    phone: '+(216) 99963900',
-  },
+    location: 'Monastir, Tunisie'  },
   footer: {
     rights: 'Tous droits réservés.',
     madeWith: 'Fait avec ❤️ par Hana Ben Amor',
