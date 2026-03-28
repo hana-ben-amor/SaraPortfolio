@@ -17,17 +17,17 @@ export class FooterComponent {
   socials = [
     {
       label: 'GitHub',
-      href: 'https://github.com/hana-ben-amor',
+      href: 'https://github.com/sarasafer59',
       icon: 'github',
     },
     {
       label: 'LinkedIn',
-      href: 'https://www.linkedin.com/in/hana-ben-amor-b738771ab/',
+      href: 'https://www.linkedin.com/in/sarrasafer',
       icon: 'linkedin',
     },
     {
       label: 'Email',
-      href: 'mailto:hanaamor5@gmail.com',
+      href: 'mailto:sarasafer59@gmail.com',
       icon: 'email',
     },
   ];
