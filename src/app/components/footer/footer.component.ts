@@ -17,7 +17,7 @@ export class FooterComponent {
   socials = [
     {
       label: 'GitHub',
-      href: 'https://github.com/sarasafer59',
+      href: 'https://github.com/sarasafer59-hash',
       icon: 'github',
     },
     {

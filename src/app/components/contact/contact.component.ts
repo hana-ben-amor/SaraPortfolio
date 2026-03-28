@@ -49,6 +49,6 @@ export class ContactComponent {
     { icon: 'phone', value: '+49 155 10055903', href: 'tel:+4915510055903' },
     { icon: 'location', value: 'Mannheim, Germany', href: null },
     { icon: 'linkedin', value: 'linkedin.com/in/sarrasafer', href: 'https://www.linkedin.com/in/sarrasafer' },
-    { icon: 'github', value: 'github.com/sarasafer59', href: 'https://github.com/sarasafer59' },
+    { icon: 'github', value: 'github.com/sarasafer59-hash', href: 'https://github.com/sarasafer59-hash' },
   ];
 }

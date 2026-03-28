@@ -12,5 +12,5 @@ export class ProjectsComponent {
   private translationService = inject(TranslationService);
   t = toSignal(this.translationService.translations$);
 
-  githubUrl = 'https://github.com/sarasafer59';
+  githubUrl = 'https://github.com/sarasafer59-hash';
 }
