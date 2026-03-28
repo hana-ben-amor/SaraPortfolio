@@ -99,9 +99,9 @@ const EN: Translations = {
   },
   hero: {
     greeting: "Hi, I'm",
-    title: 'Software Engineer',
+    title: 'Data Science Engineer',
     subtitle:
-      'Passionate about building scalable web applications and cloud solutions. Based in Monastir, Tunisia.',
+      'Data Science Engineer with experience in machine learning and AI systems. Based in Mannheim, Germany.',
     downloadCv: 'Download CV',
     contactMe: 'Contact Me',
   },
@@ -109,18 +109,18 @@ const EN: Translations = {
     sectionTitle: 'About Me',
     sectionSubtitle: 'Get to know me better',
     bio1:
-      "I'm Hana Ben Amor, a Software Engineering graduate from the Higher Institute of Applied Sciences and Technology of Sousse, Tunisia. I'm passionate about crafting robust, scalable applications that solve real-world problems.",
+      "I'm Sarra Safer, a Data Science Engineer with experience in machine learning and AI systems. Skilled in building end-to-end data-driven solutions and working with modern tools and frameworks.",
     bio2:
-      'With hands-on experience in Full Stack development, DevOps, and Cloud engineering, I have worked with leading companies including EDF in France and VERMEG in Tunisia. I thrive in collaborative environments and embrace modern engineering practices.',
+      'With hands-on experience in AI engineering, machine learning, and full-stack development, I have worked with KSB SE & Co. KGaA in Germany and Tunisie Telecom. I thrive in collaborative environments and embrace modern AI practices.',
     bio3:
-      'Currently working remotely as a Full Stack Engineer for Mode Elite Import (Canada, Quebec), I continue to grow my expertise in the latest technologies and cloud-native architectures.',
+      'Currently working as an Artificial Intelligence Engineer at KSB SE & Co. KGaA and as a freelance AI & Full-Stack Developer, I continue to grow my expertise in LLMs, time-series forecasting, and scalable AI solutions.',
     education: 'Education',
-    degree1Title: 'Engineering Degree in Software Engineering',
-    degree1School: 'Higher Institute of Applied Sciences and Technology of Sousse',
-    degree1Period: 'Sept 2022 – Oct 2025',
-    degree2Title: 'Preparatory Cycle – Mathematics, Physics & Computer Science',
-    degree2School: 'Higher Institute of Applied Sciences and Technology of Sousse',
-    degree2Period: 'Sept 2020 – June 2022',
+    degree1Title: 'Master of Engineering in Computer Science',
+    degree1School: 'ESPRIT School of Engineering',
+    degree1Period: 'Sept 2022 – May 2025',
+    degree2Title: 'Master of Science in Data Science',
+    degree2School: 'Schmalkalden University of Applied Sciences',
+    degree2Period: 'Oct 2024 – Mar 2025',
     languages: 'Languages',
     certifications: 'Certifications',
   },
@@ -130,40 +130,49 @@ const EN: Translations = {
     present: 'Present',
     items: [
       {
-        role: 'Full Stack Engineer',
-        company: 'Mode Elite Import',
-        period: '2025 – Present',
-        location: 'Remote · Quebec, Canada',
+        role: 'AI & Full-Stack Developer',
+        company: 'Freelance',
+        period: 'Feb 2026 – Present',
+        location: 'Remote',
         description:
-          'Working remotely as a Full Stack Engineer, developing and maintaining modern web applications for a Canadian client.',
-        tech: [],
+          'Built and deployed an AI analytics platform using LLMs and asynchronous services to process and evaluate outputs from multiple AI providers with automated metrics and sentiment analysis.',
+        tech: ['Next.js', 'BullMQ', 'Redis', 'PostgreSQL', 'LLMs'],
       },
       {
-        role: 'Full Stack Engineer',
-        company: 'EDF – Électricité de France',
+        role: 'Artificial Intelligence Engineer',
+        company: 'KSB SE & Co. KGaA',
+        period: 'Jan 2026 – Present',
+        location: 'Frankenthal, Germany',
+        description:
+          'Conducting time-series forecasting experiments using the TiReX model on sensor data and contributing to research on TiReX integration, with a focus on time-series classification performance.',
+        tech: ['TiReX', 'xLSTM', 'Time-Series', 'Python'],
+      },
+      {
+        role: 'Artificial Intelligence Engineer Intern',
+        company: 'KSB SE & Co. KGaA',
         period: 'May 2025 – Oct 2025',
-        location: 'Lyon, France',
+        location: 'Frankenthal, Germany',
         description:
-          'Participated in development of the TRAIL application, an AI monitoring tool used to track application usage at EDF and manage user satisfaction campaigns.',
-        tech: ['Spring Boot', 'Angular', 'Jenkins', 'GitLab', 'Nexus', 'PostgreSQL', 'Elasticsearch', 'JUnit', 'Docker', 'Grafana', 'Prometheus', 'AWS', 'Kubernetes'],
+          'Built LLM-based applications on Databricks to construct RAG pipelines and AI assistants, and assessed the TiReX model utilizing xLSTM architecture for time-series forecasting on sensor data.',
+        tech: ['Databricks', 'LLMs', 'RAG', 'xLSTM', 'TiReX', 'Python'],
       },
       {
-        role: 'DevOps / Cloud Engineer',
-        company: 'VERMEG',
-        period: 'July 2024 – Sept 2024',
+        role: 'Machine Learning Engineer Intern',
+        company: 'Tunisie Telecom',
+        period: 'June 2024 – Sept 2024',
         location: 'Tunis, Tunisia',
         description:
-          "Worked on Mola's VM Solutions project to automate provisioning and deployment of secure virtual machines.",
-        tech: ['Packer', 'AWS', 'Jenkins', 'Inspec', 'Git', 'OVF/OVA', 'QEMU', 'VirtualBox', 'VMware'],
+          'Developed a predictive model utilizing XGBoost and Gradient Boosting to enhance radio site placements, increasing network efficiency by 25% through geospatial mapping and Power BI visualizations.',
+        tech: ['XGBoost', 'Gradient Boosting', 'Power BI', 'Python', 'GIS'],
       },
       {
-        role: 'Full Stack Engineer',
-        company: 'MEDIANET',
-        period: 'June 2023 – Aug 2023',
-        location: 'Tunis, Tunisia',
+        role: 'Fullstack Developer Intern',
+        company: 'Tunisie Telecom',
+        period: 'June 2023 – July 2023',
+        location: 'Monastir, Tunisia',
         description:
-          'Developed BookSphere web application — an online bookstore platform with integrated blog space.',
-        tech: ['Spring Boot', 'Spring Security', 'AngularJS', 'Swagger', 'GitLab CI/CD', 'Scrum'],
+          'Implemented a user-friendly web platform with Django and PostgreSQL, resulting in 30% increased installation scheduling efficiency for over 200 home network requests.',
+        tech: ['Django', 'PostgreSQL', 'Python'],
       },
     ],
   },
@@ -173,67 +182,38 @@ const EN: Translations = {
     viewCode: 'View Code',
     items: [
       {
-        title: 'WattWise',
+        title: 'Healthcare Question-Answering System',
         description:
-          'AI-powered web platform for energy compliance in French real estate. Enables owners and property managers to audit buildings, calculate financial aid (MaPrimeRénov, CEE, Éco-PTZ) and find certified RGE contractors — in compliance with Loi Climat et Résilience.',
-        tech: ['Spring Boot', 'Python', 'Llama 3.2', 'Angular'],
+          'Implemented a healthcare Q&A system with FLAN-T5 Large and LLAMA-2-7B, fine-tuned with LoRA and Prompt Tuning for effective domain adaptation on medical datasets (MedQuAD).',
+        tech: ['FLAN-T5', 'LLAMA-2-7B', 'LoRA', 'Prompt Tuning', 'HuggingFace'],
       },
       {
-        title: 'Ben Amor Collection',
+        title: 'AI-Powered Project Management Assistant',
         description:
-          'An elegant online boutique for clothing and accessories with integrated payment processing.',
-        tech: ['React', 'Node.js', 'MongoDB', 'Stripe API'],
+          'Developed an AI-powered project management assistant compliant with PMBOK requirements by integrating LLMs and a Neo4j-based knowledge graph to improve resource allocation by 20%.',
+        tech: ['LLMs', 'Neo4j', 'Knowledge Graph', 'Python', 'LangChain'],
       },
       {
-        title: 'FinFlow',
+        title: 'Carthago Credit Risk BFI',
         description:
-          'A smart financial tracking and management platform for personal and business finances.',
-        tech: ['Angular', 'Spring Boot', 'MySQL'],
+          'Enhanced strategic lending decisions and decreased loan defaults by 15% through development of a credit risk monitoring platform utilizing Django, NLP techniques, regression analysis, and time series forecasting.',
+        tech: ['Django', 'NLP', 'Regression', 'Time Series', 'Python'],
       },
       {
-        title: 'Renter App',
+        title: 'Interactive BI Dashboard – Airline Sentiment',
         description:
-          'Web application inspired by Airbnb for property rentals with secure payment integration.',
-        tech: ['.NET', 'MySQL', 'Stripe API', 'HTML/CSS/JS'],
-        date: 'December 2024',
-      },
-      {
-        title: 'NovaUniversity',
-        description:
-          'Full university management system from enrollment to diploma generation with AI-powered schedule generation.',
-        tech: ['Spring Boot', 'Angular', 'Docker', 'MySQL', 'AI'],
-        date: 'May 2024',
-      },
-      {
-        title: 'Inventory Management',
-        description:
-          'Modular inventory system based on microservices architecture with real-time monitoring.',
-        tech: ['Spring Boot', 'WebFlux', 'Kafka', 'MySQL', 'Docker', 'Eureka', 'Prometheus', 'Grafana'],
-        date: 'April 2024',
-      },
-      {
-        title: 'BookSphere',
-        description:
-          'E-commerce web application for selling books online with integrated blog space.',
-        tech: ['Spring Boot', 'Angular', 'MySQL', 'Spring Security'],
-        date: 'June 2023',
-      },
-      {
-        title: 'AmazonHer',
-        description:
-          'Clothing e-commerce platform inspired by Amazon, built with the MERN stack.',
-        tech: ['MongoDB', 'Express.js', 'React', 'Node.js'],
-        date: 'September 2022',
+          'Created an interactive Streamlit–Plotly dashboard to analyze airline sentiment from Twitter data, utilizing NLP and geospatial mapping with real-time filtering for actionable insights.',
+        tech: ['Streamlit', 'Plotly', 'NLP', 'Python', 'GeoPandas'],
       },
     ],
   },
   skills: {
     sectionTitle: 'Skills',
     sectionSubtitle: 'My technical expertise',
-    devops: 'DevOps',
-    cloud: 'Cloud',
+    devops: 'Cloud & MLOps',
+    cloud: 'ML/DL Frameworks',
     languages: 'Programming Languages',
-    web: 'Web & Frameworks',
+    web: 'Web & Databases',
   },
   contact: {
     sectionTitle: 'Contact',
@@ -248,11 +228,11 @@ const EN: Translations = {
     emailPlaceholder: 'john@example.com',
     messagePlaceholder: 'Tell me about your project…',
     infoTitle: 'Get in touch',
-    location: 'Monastir, Tunisia'
+    location: 'Mannheim, Germany',
   },
   footer: {
     rights: 'All rights reserved.',
-    madeWith: 'Made with ❤️ by Hana Ben Amor',
+    madeWith: 'Made with ❤️ by Sarra Safer',
   },
 };
 
@@ -267,9 +247,9 @@ const FR: Translations = {
   },
   hero: {
     greeting: 'Bonjour, je suis',
-    title: 'Ingénieure Logiciel',
+    title: 'Ingénieure en Science des Données',
     subtitle:
-      'Passionnée par la création d\'applications web scalables et de solutions cloud. Basée à Monastir, Tunisie.',
+      'Ingénieure en Science des Données avec une expérience en apprentissage automatique et systèmes d\'IA. Basée à Mannheim, Allemagne.',
     downloadCv: 'Télécharger CV',
     contactMe: 'Me Contacter',
   },
@@ -277,18 +257,18 @@ const FR: Translations = {
     sectionTitle: 'À Propos',
     sectionSubtitle: 'Apprenez à me connaître',
     bio1:
-      'Je suis Hana Ben Amor, diplômée en Génie Logiciel de l\'Institut Supérieur des Sciences Appliquées et de Technologie de Sousse, Tunisie. Je suis passionnée par la création d\'applications robustes et évolutives.',
+      'Je suis Sarra Safer, Ingénieure en Science des Données avec une expérience en apprentissage automatique et systèmes d\'IA. Spécialisée dans la construction de solutions orientées données de bout en bout et dans l\'utilisation d\'outils et frameworks modernes.',
     bio2:
-      'Avec une expérience pratique en développement Full Stack, DevOps et Cloud engineering, j\'ai travaillé avec des entreprises de renom dont EDF en France et VERMEG en Tunisie.',
+      'Forte d\'une expérience pratique en ingénierie de l\'IA, apprentissage automatique et développement full-stack, j\'ai travaillé avec KSB SE & Co. KGaA en Allemagne et Tunisie Telecom. J\'excelle dans les environnements collaboratifs et adopte les pratiques modernes de l\'IA.',
     bio3:
-      'Actuellement en télétravail en tant qu\'Ingénieure Full Stack pour Mode Elite Import (Canada, Québec), je continue de développer mon expertise dans les dernières technologies.',
+      'Actuellement en poste en tant qu\'Ingénieure en Intelligence Artificielle chez KSB SE & Co. KGaA et développeuse freelance AI & Full-Stack, je continue d\'approfondir mon expertise en LLMs, prévision de séries temporelles et solutions IA scalables.',
     education: 'Formation',
-    degree1Title: 'Diplôme d\'Ingénieur en Génie Logiciel',
-    degree1School: 'Institut Supérieur des Sciences Appliquées et de Technologie de Sousse',
-    degree1Period: 'Sept 2022 – Oct 2025',
-    degree2Title: 'Cycle Préparatoire – Mathématiques, Physique & Informatique',
-    degree2School: 'Institut Supérieur des Sciences Appliquées et de Technologie de Sousse',
-    degree2Period: 'Sept 2020 – Juin 2022',
+    degree1Title: 'Master en Génie Informatique',
+    degree1School: 'ESPRIT School of Engineering',
+    degree1Period: 'Sept 2022 – Mai 2025',
+    degree2Title: 'Master of Science en Science des Données',
+    degree2School: 'Université des Sciences Appliquées de Schmalkalden',
+    degree2Period: 'Oct 2024 – Mar 2025',
     languages: 'Langues',
     certifications: 'Certifications',
   },
@@ -298,40 +278,49 @@ const FR: Translations = {
     present: 'Présent',
     items: [
       {
-        role: 'Ingénieure Full Stack',
-        company: 'Mode Elite Import',
-        period: '2025 – Présent',
-        location: 'Télétravail · Québec, Canada',
+        role: 'Développeuse AI & Full-Stack',
+        company: 'Freelance',
+        period: 'Fév. 2026 – Présent',
+        location: 'Télétravail',
         description:
-          'Travail en télétravail en tant qu\'Ingénieure Full Stack, développement et maintenance d\'applications web modernes pour un client canadien.',
-        tech: [],
+          'Conception et déploiement d\'une plateforme d\'analyse IA utilisant des LLMs et des services asynchrones pour traiter et évaluer les sorties de plusieurs fournisseurs d\'IA avec métriques automatisées et analyse de sentiment.',
+        tech: ['Next.js', 'BullMQ', 'Redis', 'PostgreSQL', 'LLMs'],
       },
       {
-        role: 'Ingénieure Full Stack',
-        company: 'EDF – Électricité de France',
-        period: 'Mai 2025 – Oct 2025',
-        location: 'Lyon, France',
+        role: 'Ingénieure en Intelligence Artificielle',
+        company: 'KSB SE & Co. KGaA',
+        period: 'Jan. 2026 – Présent',
+        location: 'Frankenthal, Allemagne',
         description:
-          'Participation au développement de l\'application TRAIL, un outil de monitoring IA pour suivre l\'utilisation des applications à EDF et gérer les campagnes de satisfaction utilisateur.',
-        tech: ['Spring Boot', 'Angular', 'Jenkins', 'GitLab', 'Nexus', 'PostgreSQL', 'Elasticsearch', 'JUnit', 'Docker', 'Grafana', 'Prometheus', 'AWS', 'Kubernetes'],
+          'Réalisation d\'expériences de prévision de séries temporelles avec le modèle TiReX sur des données capteurs et contribution à la recherche sur l\'intégration de TiReX, avec un focus sur la performance en classification de séries temporelles.',
+        tech: ['TiReX', 'xLSTM', 'Time-Series', 'Python'],
       },
       {
-        role: 'Ingénieure DevOps / Cloud',
-        company: 'VERMEG',
-        period: 'Juil. 2024 – Sept. 2024',
+        role: 'Stagiaire Ingénieure en Intelligence Artificielle',
+        company: 'KSB SE & Co. KGaA',
+        period: 'Mai 2025 – Oct. 2025',
+        location: 'Frankenthal, Allemagne',
+        description:
+          'Développement d\'applications basées sur des LLMs sur Databricks pour construire des pipelines RAG et des assistants IA, et évaluation du modèle TiReX utilisant l\'architecture xLSTM pour la prévision de séries temporelles sur données capteurs.',
+        tech: ['Databricks', 'LLMs', 'RAG', 'xLSTM', 'TiReX', 'Python'],
+      },
+      {
+        role: 'Stagiaire Ingénieure en Machine Learning',
+        company: 'Tunisie Telecom',
+        period: 'Juin 2024 – Sept. 2024',
         location: 'Tunis, Tunisie',
         description:
-          'Travail sur le projet Mola\'s VM Solutions pour automatiser le provisionnement et le déploiement de machines virtuelles sécurisées.',
-        tech: ['Packer', 'AWS', 'Jenkins', 'Inspec', 'Git', 'OVF/OVA', 'QEMU', 'VirtualBox', 'VMware'],
+          'Développement d\'un modèle prédictif utilisant XGBoost et Gradient Boosting pour optimiser l\'implantation des sites radio, augmentant l\'efficacité réseau de 25% grâce à la cartographie géospatiale et des visualisations Power BI.',
+        tech: ['XGBoost', 'Gradient Boosting', 'Power BI', 'Python', 'GIS'],
       },
       {
-        role: 'Ingénieure Full Stack',
-        company: 'MEDIANET',
-        period: 'Juin 2023 – Août 2023',
-        location: 'Tunis, Tunisie',
+        role: 'Stagiaire Développeuse Fullstack',
+        company: 'Tunisie Telecom',
+        period: 'Juin 2023 – Juil. 2023',
+        location: 'Monastir, Tunisie',
         description:
-          'Développement de l\'application web BookSphere — une librairie en ligne avec espace blog intégré.',
-        tech: ['Spring Boot', 'Spring Security', 'AngularJS', 'Swagger', 'GitLab CI/CD', 'Scrum'],
+          'Mise en place d\'une plateforme web conviviale avec Django et PostgreSQL, entraînant une augmentation de 30% de l\'efficacité de planification des installations pour plus de 200 demandes de réseaux domestiques.',
+        tech: ['Django', 'PostgreSQL', 'Python'],
       },
     ],
   },
@@ -341,67 +330,38 @@ const FR: Translations = {
     viewCode: 'Voir le Code',
     items: [
       {
-        title: 'WattWise',
+        title: 'Système de Questions-Réponses en Santé',
         description:
-          'Plateforme web IA de conformité énergétique pour l\'immobilier français. Permet aux propriétaires et syndics d\'auditer leurs bâtiments, calculer leurs aides financières (MaPrimeRénov, CEE, Éco-PTZ) et trouver des artisans RGE certifiés — en conformité avec la Loi Climat et Résilience.',
-        tech: ['Spring Boot', 'Python', 'Llama 3.2', 'Angular'],
+          'Implémentation d\'un système de Q&R médical avec FLAN-T5 Large et LLAMA-2-7B, affiné avec LoRA et Prompt Tuning pour une adaptation efficace au domaine sur des jeux de données médicaux (MedQuAD).',
+        tech: ['FLAN-T5', 'LLAMA-2-7B', 'LoRA', 'Prompt Tuning', 'HuggingFace'],
       },
       {
-        title: 'Ben Amor Collection',
+        title: 'Assistant IA de Gestion de Projets',
         description:
-          'Une boutique en ligne élégante pour vêtements et accessoires avec paiement intégré.',
-        tech: ['React', 'Node.js', 'MongoDB', 'Stripe API'],
+          'Développement d\'un assistant de gestion de projets alimenté par l\'IA, conforme aux exigences PMBOK, en intégrant des LLMs et un graphe de connaissances Neo4j pour améliorer l\'allocation des ressources de 20%.',
+        tech: ['LLMs', 'Neo4j', 'Knowledge Graph', 'Python', 'LangChain'],
       },
       {
-        title: 'FinFlow',
+        title: 'Carthago Credit Risk BFI',
         description:
-          'Une plateforme intelligente de suivi et de gestion financière pour particuliers et entreprises.',
-        tech: ['Angular', 'Spring Boot', 'MySQL'],
+          'Amélioration des décisions de prêt stratégiques et réduction des défauts de remboursement de 15% grâce au développement d\'une plateforme de suivi du risque de crédit utilisant Django, des techniques NLP, l\'analyse de régression et la prévision de séries temporelles.',
+        tech: ['Django', 'NLP', 'Regression', 'Time Series', 'Python'],
       },
       {
-        title: 'Renter App',
+        title: 'Tableau de Bord BI Interactif – Sentiment Aérien',
         description:
-          'Application web inspirée d\'Airbnb pour la location de propriétés avec paiement sécurisé.',
-        tech: ['.NET', 'MySQL', 'Stripe API', 'HTML/CSS/JS'],
-        date: 'Décembre 2024',
-      },
-      {
-        title: 'NovaUniversity',
-        description:
-          'Système de gestion universitaire complet de l\'inscription à la génération de diplômes avec IA.',
-        tech: ['Spring Boot', 'Angular', 'Docker', 'MySQL', 'IA'],
-        date: 'Mai 2024',
-      },
-      {
-        title: 'Gestion des Stocks',
-        description:
-          'Système de gestion des stocks modulaire basé sur une architecture microservices avec monitoring temps réel.',
-        tech: ['Spring Boot', 'WebFlux', 'Kafka', 'MySQL', 'Docker', 'Eureka', 'Prometheus', 'Grafana'],
-        date: 'Avril 2024',
-      },
-      {
-        title: 'BookSphere',
-        description:
-          'Application web e-commerce pour la vente de livres en ligne avec espace blog intégré.',
-        tech: ['Spring Boot', 'Angular', 'MySQL', 'Spring Security'],
-        date: 'Juin 2023',
-      },
-      {
-        title: 'AmazonHer',
-        description:
-          'Plateforme e-commerce de vêtements inspirée d\'Amazon, développée avec la stack MERN.',
-        tech: ['MongoDB', 'Express.js', 'React', 'Node.js'],
-        date: 'Septembre 2022',
+          'Création d\'un tableau de bord interactif Streamlit–Plotly pour analyser le sentiment des compagnies aériennes à partir de données Twitter, utilisant NLP et cartographie géospatiale avec filtrage en temps réel pour des insights actionnables.',
+        tech: ['Streamlit', 'Plotly', 'NLP', 'Python', 'GeoPandas'],
       },
     ],
   },
   skills: {
     sectionTitle: 'Compétences',
     sectionSubtitle: 'Mon expertise technique',
-    devops: 'DevOps',
-    cloud: 'Cloud',
+    devops: 'Cloud & MLOps',
+    cloud: 'Frameworks ML/DL',
     languages: 'Langages de Programmation',
-    web: 'Web & Frameworks',
+    web: 'Web & Bases de Données',
   },
   contact: {
     sectionTitle: 'Contact',
@@ -416,10 +376,11 @@ const FR: Translations = {
     emailPlaceholder: 'jean@exemple.com',
     messagePlaceholder: 'Parlez-moi de votre projet…',
     infoTitle: 'Entrer en contact',
-    location: 'Monastir, Tunisie'  },
+    location: 'Mannheim, Allemagne',
+  },
   footer: {
     rights: 'Tous droits réservés.',
-    madeWith: 'Fait avec ❤️ par Hana Ben Amor',
+    madeWith: 'Fait avec ❤️ par Sarra Safer',
   },
 };
 
